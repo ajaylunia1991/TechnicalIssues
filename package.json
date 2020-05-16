@@ -1,0 +1,23 @@
+{
+  "name": "POM_in_WebDriverIO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.1.11",
+    "@wdio/sync": "^6.1.8"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.1.11",
+    "@wdio/mocha-framework": "^6.1.8",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/spec-reporter": "^6.1.9",
+    "sync-request": "^6.1.0"
+  }
+}
